@@ -6,4 +6,6 @@ trait MethodTrait {
 	def prefixString(input: String) = {
 		prefix + " " + input
 	}
+
+	def processMessage(input: String): String
 }
